@@ -14,7 +14,7 @@ html {
 body {
   /*font-family:;*/
   font-size: 1.6rem;
-  color: var(--font-color);
+  /*color: var(--font-color);*/
   background-image: url('images/zelda-wallpaper.jpg');
   background-attachment: fixed;
   background-size: cover;
@@ -32,7 +32,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: var(--font-color);
+  /*color: var(--font-color);*/
 }
 
 img {
