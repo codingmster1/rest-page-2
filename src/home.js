@@ -1,41 +1,38 @@
-const createHome = (()  => {
+function createHome() {
     
     /* ================ container ================== */
 
-    const contentContainer = document.querySelector("#content");
+    /*const contentContainer = document.querySelector("#content");
 
     /* ================ for each tab =============== */
 
     const home = document.createElement("div");
-    home.classList.add("tab");
+    home.classList.add("home");
 
-    home.innerHTML = `<div id="home" class="active" data-tab-content>
-    <div class="hero">
-      <h1>Come on down for some delicious cuisine!</h1>
-      <p>Tasty and affordable!</p>
-      <div class="btn-container">
-        <a data-tab-target="#menu" class="order-now">Order Now</a>
-      </div>
-    </div>
-    <div class="info">
-      <div class="address">
-        <span><i class="fi-xnsuxl-map-marker-solid"></i></span>
-        <p>1024 Oakwood Ave<br />San Diego, CA 22434</p>
-      </div>
-      <div class="hours">
-        <span><i class="fi-cnsuhl-clock-solid"></i></span>
-        <p>
-          <span>Mon-Thurs:</span>8am-8pm<br /><span>Fri-Sun:</span
-          >8am-11pm
-        </p>
-      </div>
-    </div>
-  </div>`;
-  
-    contentContainer.appendChild(home);
-  })();
-  
-  export { renderHomePage };
-  
+    const linkImage = document.createElement("img");
+    linkImage.src = "./images/link-pot.gif";
+    linkImage.alt = "Link";
 
+  home.appendChild(createParagraph("Best pizza in your country"));
+  home.appendChild(createParagraph("Made with passion since 1908"));
+  home.appendChild(chefImage);
+  home.appendChild(createParagraph("Order online or visit us!"));
+
+  return home;
+
+}
+
+function createParagraph(text) {
+  const paragraph = document.createElement("p");
+  paragraph.textContent = text;
+  return paragraph;
+}
+
+function loadHome() {
+  const main = document.getElementById("main");
+  main.textContent = "";
+  main.appendChild(createHome());
+}
+
+export default loadHome;
   
