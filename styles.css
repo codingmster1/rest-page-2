@@ -15,3 +15,137 @@ body {
   /*background: yellow;*/
   overflow-x: hidden;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
+    /*background: var(--dark-blue);*/
+  }
+  
+  h1 {
+    /*font-family: var(--fredoka);
+    color: var(--pink);*/
+    font-size: calc(2rem + 1vw);
+  }
+
+  [data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
+  
+  .tab-content h1 {
+    
+    font-size: calc(3rem + 2vw);
+    text-align: center;
+  }
+  
+  .tab-content p {
+    font-weight: bolder;
+    font-size: calc(1rem + 0.7vw);
+    text-align: center;
+  }
+
+
+  #home {
+    height: 92vh;
+    background: url(./images/zelda-wallpaper.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #home .hero {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #home h1 {
+    background: linear-gradient(to right, var(--pink) 0%, var(--orange) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #home .hero p {
+    color: var(--orange);
+    letter-spacing: 2px;
+  }
+  
+  #home .hero .btn-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  #home .hero .order-now {
+    padding: 8px 22px;
+    border-radius: 25px;
+    background: var(--pink);
+    text-decoration: none;
+    color: var(--pale-yellow);
+    font-size: 1.8rem;
+    font-family: var(--poppins);
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
+  #home .hero .order-now:hover {
+    background: #ce103f;
+  }
+  
+  #home .info {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: calc(15rem + 25vw);
+    height: calc(15rem + 5vw);
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  
+  #home .hours,
+  #home .phone {
+    font-family: var(--poppins);
+    font-size: 2rem;
+    display: flex;
+    color: var(--pale-yellow);
+    padding: 3rem;
+  }
+  
+  
+  #home .hours span {
+    padding-right: 2rem;
+    color: var(--pink);
+    font-size: calc(1rem + 0.5vw);
+  }
+  
+ 
+  #home .hours p {
+    font-family: var(--poppins);
+    text-align: left;
+    font-size: calc(1rem + 0.5vw);
+  }
+  
+  #home .hours span {
+    padding-right: 1rem;
+  }
+  
+  #menu .hero {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
