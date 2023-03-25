@@ -50,6 +50,14 @@ button {
 
 /* ===================== Content ===================== */
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 .header 
 {
   display: flex;
@@ -85,3 +93,120 @@ button {
 }
 
 /* ==================== Main ==================== */
+
+.main {
+  max-width: 700px;
+  padding: 4rem;
+  margin: 6rem 0;
+  font-size: 2rem;
+  background-color: var(--background-light);
+  border: 1px solid var(--border-color);
+}
+
+/* =================== Home ==================== */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 525px;
+  width: 618px;
+  animation: fadeIn 1.5s;
+}
+
+.home p {
+  padding: 1rem;
+}
+
+.home img {
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  opacity: 90%;
+}
+
+/* ======================= Menu ===================== */
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  animation: fadeIn 1.5s;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 4rem;
+  cursor: pointer;
+  background-color: var(--background-light);
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: var(--background-light-hover);
+}
+
+.menu-item img {
+  width: 60%;
+}
+
+.menu-item h2 {
+  padding: 2rem;
+}
+
+.menu-item p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* ======================== Contact ====================== */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 525px;
+  width: 618px;
+  animation: fadeIn 1.5s;
+}
+
+.contact p {
+  width: 100%;
+  padding: 1rem;
+}
+
+.contact img {
+  max-height: 420px;
+  padding: 1rem;
+  opacity: 90%;
+}
+
+/* ==================== bottom/footer ================== */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+  background-color: var(--background-light);
+}
+
+.fa-github {
+  font-size: 2rem;
+}
+
+.fa-github:hover {
+  color: var(--font-color-dark);
+}
+
+/* ====================== Scroll ====================== */
+
