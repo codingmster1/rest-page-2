@@ -10,7 +10,7 @@ function createHome() {
     home.classList.add("home");
 
     const linkImage = document.createElement("img");
-    linkImage.src = "./images/link-pot.gif";
+    linkImage.src = "images/zelda-cooking-camp.gif";
     linkImage.alt = "Link";
 
   home.appendChild(createParagraph("Best pizza in your country"));
