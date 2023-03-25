@@ -9,7 +9,7 @@ function createHome() {
     linkImage.src = "images/zelda-cooking-camp.gif";
     linkImage.alt = "Link";
 
-  home.appendChild(createParagraph("Best pizza in your country"));
+  home.appendChild(createParagraph("Only the best "));
   home.appendChild(createParagraph("Made with passion since 1908"));
   home.appendChild(linkImage);
   home.appendChild(createParagraph("Order online or visit us!"));
