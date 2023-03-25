@@ -65,7 +65,7 @@ function createMenu() {
     foodDescription.textContent = description;
   
     const foodImage = document.createElement("img");
-    foodImage.src = `images/${name.toLowerCase()}.png`;
+    foodImage.src = 'images/botw-heart.gif';
     foodImage.alt = `${name}`;
   
     menuItem.appendChild(foodImage);
