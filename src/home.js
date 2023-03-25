@@ -1,10 +1,6 @@
 function createHome() {
     
-    /* ================ container ================== */
-
-    /*const contentContainer = document.querySelector("#content");
-
-    /* ================ for each tab =============== */
+    
 
     const home = document.createElement("div");
     home.classList.add("home");
@@ -15,7 +11,7 @@ function createHome() {
 
   home.appendChild(createParagraph("Best pizza in your country"));
   home.appendChild(createParagraph("Made with passion since 1908"));
-  home.appendChild(chefImage);
+  home.appendChild(linkImage);
   home.appendChild(createParagraph("Order online or visit us!"));
 
   return home;

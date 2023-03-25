@@ -7,7 +7,8 @@ const renderMenuPage = (() => {
     menu.innerHTML = `
     <div class="hero">
     <h1>Menu</h1>
-    <img src="images/zelda-cooking-camp.gif" alt="" width="50" height="50" />
+
+    <img src="images/zelda-cooking-camp.gif" alt="" width="250" height="250" />
   </div>
   <div class="menu-container">
     <div class="menu-item">
