@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: 'Press Start 2P';
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   /*color: var(--font-color);*/
   background-image: url('images/zelda-wallpaper.jpg');
   background-attachment: fixed;
@@ -121,6 +121,7 @@ button {
 
 .home p {
   padding: 1rem;
+  font-size: 2.1rem;
 }
 
 .home img {

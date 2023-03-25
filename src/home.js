@@ -9,10 +9,10 @@ function createHome() {
     linkImage.src = "images/zelda-cooking-camp.gif";
     linkImage.alt = "Link";
 
-  home.appendChild(createParagraph("Only the best "));
-  home.appendChild(createParagraph("Made with passion since 1908"));
+  home.appendChild(createParagraph("The most delicious recipes in all of Hyrule Kingdom!"));
+  home.appendChild(createParagraph("It's dangerous to go alone...without a good meal!"));
   home.appendChild(linkImage);
-  home.appendChild(createParagraph("Order online or visit us!"));
+  home.appendChild(createParagraph("The travel is worth it!"));
 
   return home;
 

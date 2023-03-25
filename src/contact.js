@@ -10,7 +10,7 @@ function createContact() {
   
     const restaurantLocation = document.createElement('img')
     restaurantLocation.src = 'images/map-zelda.jpg'
-    restaurantLocation.alt = 'Mozzafiato restaurant location'
+    restaurantLocation.alt = 'Restaurant location'
   
     contact.appendChild(phoneNumber)
     contact.appendChild(address)
