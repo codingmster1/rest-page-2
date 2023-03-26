@@ -4,50 +4,50 @@ function createMenu() {
   
     menu.appendChild(
       createMenuItem(
-        "Salsiccia",
-        "Tomato sauce, Mozarella, Tomato, Homemade sausage, Garlic, Basil"
+        "Creamy Heart Soup",
+        "Hydromelon, a voltfruit, fresh milk, and a hearty radish(gives health boost)"
       )
     );
     menu.appendChild(
       createMenuItem(
-        "Gamberi",
-        "Tomato sauce, Mozarella, Shrimps, Feta cheese, Olives, Basil"
+        "Clam Chowder",
+        "Fresh milk, tabantha wheat, goat butter, and a hearty blueshell snail(gives health boost)"
       )
     );
     menu.appendChild(
       createMenuItem(
-        "Pepe",
-        "Tomato sauce, Mozarella, Chilli flakes, Olives, Basil"
+        "Seafood Curry",
+        "Goron spice and Hylian rice(Boosts attack and defense)"
       )
     );
     menu.appendChild(
       createMenuItem(
-        "Disgustoso",
-        "Tomato sauce, Bacon, Pineapple, Olives, Basil"
+        "Hasty Fruit And Mushroom Mix",
+        "Mix any fruit they have with a Rushroom(increases speed)"
       )
     );
     menu.appendChild(
       createMenuItem(
-        "Colorato",
-        "Tomato sauce, Mozarella, Onion, Pepper, Champignons, Basil"
+        "Seafood Fried Rice",
+        "Hylian rice and rock salt(just a fun dish to make)"
       )
     );
     menu.appendChild(
       createMenuItem(
-        "Pomodoro",
-        "Tomato sauce, Mozarella, Tomato, Onion, Feta cheese, Chilli"
+        "Hearty Fruitcake",
+        "Apple or a wildberry, a hearty durian, wheat, and cane sugar(maxes out hearts)"
       )
     );
     menu.appendChild(
       createMenuItem(
-        "Crema",
-        "White sauce, Mozarella, Shrimps, Salmon, Pineapple, Olives, Basil"
+        "Hearty Veggie Rice Balls",
+        "Hearty Radish or its bigger variant with Hylian Rice(full recovery with 12+ hearts)"
       )
     );
     menu.appendChild(
       createMenuItem(
-        "Carne",
-        "Tomato sauce, Mozarella, Homemade sausage, Bacon, Garlic, Pepper, Chilli"
+        "Fairy Tonic",
+        "Combine a fairy with either a monster part, Guardian part, animal part, or a type of gemstone(restorative effect)"
       )
     );
   
