@@ -23,7 +23,7 @@ function createMenu() {
     menu.appendChild(
       createMenuItem(
         "Hasty Fruit And Mushroom Mix",
-        "Mix any fruit they have with a Rushroom(increases speed)"
+        "Mix any fruit with a Rushroom(increases speed)"
       )
     );
     menu.appendChild(
