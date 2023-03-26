@@ -29,7 +29,7 @@ function createMenu() {
     menu.appendChild(
       createMenuItem(
         "Seafood Fried Rice",
-        "Hylian rice and rock salt(just a fun dish to make)"
+        "Hylian rice and rock salt(just a fun dish to make! Who says it needs a purpose?)"
       )
     );
     menu.appendChild(
@@ -41,7 +41,7 @@ function createMenu() {
     menu.appendChild(
       createMenuItem(
         "Hearty Veggie Rice Balls",
-        "Hearty Radish or its bigger variant with Hylian Rice(full recovery with 12+ hearts)"
+        "Hearty Radish or its bigger variant with Hylian Rice(full recovery with 12 more hearts-health boost)"
       )
     );
     menu.appendChild(
