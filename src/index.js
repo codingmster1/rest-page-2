@@ -1,3 +1,3 @@
 import initializeWebsite from "./website";
-import './styles.css';
+import './dist/styles.css';
 initializeWebsite();
