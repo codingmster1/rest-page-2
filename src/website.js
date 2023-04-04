@@ -1,7 +1,7 @@
 import loadHome from "./home";
 import loadMenu from "./menu";
 import loadContact from "./contact";
-import './styles.css';
+
 
 function createHeader() {
   const header = document.createElement("header");
