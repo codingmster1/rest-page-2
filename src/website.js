@@ -1,7 +1,7 @@
 import loadHome from "./home.js";
 import loadMenu from "./menu.js";
 import loadContact from "./contact.js";
-import './styles.css';
+/*import './styles.css';*/
 
 
 function createHeader() {
