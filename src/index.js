@@ -1,4 +1,4 @@
-import initializeWebsite from "./website.js";
+import initializeWebsite from "./website";
 
 
 initializeWebsite();
